@@ -1,4 +1,3 @@
-// Add more elements to these lists. The contents do not have to be real.
 const GEOGRAPHY_LIST = [
     {
         country: 'United States',
@@ -53,28 +52,28 @@ const GEOGRAPHY_LIST = [
         ],
     },
     {
-        country: 'India',
-        capital: 'New Delhi',
-        largestCity: 'Mumbai',
+        country: 'Australia',
+        capital: 'Canberra',
+        largestCity: 'Sydney',
         subdivisionName: 'state',
         subdivisions: [
             {
-                name: 'Telangana',
-                capital: 'Hyderabad',
-                largestCity: 'Hyderabad',
-                area: 3713,
+                name: 'New South Wales',
+                capital: 'Sydney',
+                largestCity: 'Sydney',
+                area: 9444,
             },
             {
-                name: 'Karnataka',
-                capital: 'Bengaluru',
-                largestCity: 'Bangalore',
-                area: 3290,
+                name: 'Victoria',
+                capital: 'Melbourne',
+                largestCity: 'Melbourne',
+                area: 7416,
             },
             {
-                name: 'Andhra Pradesh',
-                capital: 'Visakhapatnam',
-                largestCity: 'Vijayawada',
-                area: 4163,
+                name: 'Queensland',
+                capital: 'Brisbane',
+                largestCity: 'Brisbane',
+                area: 5976,
             },
         ],
     },
@@ -104,7 +103,100 @@ const GEOGRAPHY_LIST = [
             },
         ],
     },
+    {
+        country: 'India',
+        capital: 'New Delhi',
+        largestCity: 'Mumbai',
+        subdivisionName: 'state',
+        subdivisions: [
+            {
+                name: 'Telangana',
+                capital: 'Hyderabad',
+                largestCity: 'Hyderabad',
+                area: 37713,
+            },
+            {
+                name: 'Andhra Pradesh',
+                capital: 'Vijayawada',
+                largestCity: 'Visakhapatnma',
+                area: 43290,
+            },
+            {
+                name: 'Karnataka',
+                capital: 'Bengaluru',
+                largestCity: 'Bangalore',
+                area: 54163,
+            },
+        ],
+    },
+    {
+        country: 'New Zealand',
+        capital: 'Wellington',
+        largestCity: 'Auckland',
+        subdivisionName: 'region',
+        subdivisions: [
+            {
+                name: 'Auckland',
+                capital: 'Auckland',
+                largestCity: 'Auckland',
+                area: 4959,
+            },
+            {
+                name: 'Wellington',
+                capital: 'Wellington',
+                largestCity: 'Wellington',
+                area: 862,
+            },
+            {
+                name: 'Canterbury',
+                capital: 'Christchurch',
+                largestCity: 'Christchurch',
+                area: 4453,
+            },
+        ],
+    },
+    {
+        country: 'Dubai',
+        capital: 'Dubai',
+        largestCity: 'Dubai',
+        subdivisionName: 'emirate',
+        subdivisions: [
+            {
+                name: 'Dubai',
+                capital: 'Dubai',
+                largestCity: 'Dubai',
+                area: 4114,
+            }
+        ],
+    },
+    {
+        country: 'South Africa',
+        capital: 'Pretoria',
+        largestCity: 'Johannesburg',
+        subdivisionName: 'province',
+        subdivisions: [
+            {
+                name: 'Gauteng',
+                capital: 'Johannesburg',
+                largestCity: 'Johannesburg',
+                area: 18178,
+            },
+            {
+                name: 'Western Cape',
+                capital: 'Cape Town',
+                largestCity: 'Cape Town',
+                area: 129462,
+            },
+            {
+                name: 'KwaZulu-Natal',
+                capital: 'Pietermaritzburg',
+                largestCity: 'Durban',
+                area: 94361,
+            },
+        ],
+    }
 ];
+
 
 // Convert data into HTML
 const mainContent = document.querySelector('main');

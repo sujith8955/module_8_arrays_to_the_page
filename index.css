@@ -1,15 +1,31 @@
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif; /* Roboto is a modern sans-serif font */
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    color: #333; /* Default text color */
 }
 
 main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
+}
+
+/* Main titles */
+h1, h2 {
+    color: #ff3363; /* Main titles color */
+}
+
+/* Sub-titles */
+h3 {
+    color: #4287f5; /* Sub-titles color */
+}
+
+/* Text */
+p {
+    color: #555; /* Text color */
 }
 
 /* Geography list styles */
@@ -33,7 +49,7 @@ main {
 .country h2 {
     margin: 0;
     font-size: 24px;
-    color: #333;
+    font-family: 'Roboto', Arial, sans-serif; /* Roboto for country headers */
 }
 
 /* Details list styles */
@@ -44,7 +60,7 @@ main {
 /* Detail item styles */
 .details li {
     font-size: 16px;
-    color: #555;
+    font-family: 'Roboto', Arial, sans-serif; /* Roboto for detail items */
 }
 
 /* Subdivisions title styles */
@@ -52,16 +68,11 @@ main {
     font-size: 20px;
     font-weight: bold;
     margin-top: 15px;
-    color: #333;
-}
-
-/* Subdivisions list styles */
-.subdivisions {
-    margin-top: 10px;
+    font-family: 'Roboto', Arial, sans-serif; /* Roboto for subdivision titles */
 }
 
 /* Subdivision item styles */
 .subdivisions li {
     font-size: 16px;
-    color: #555;
+    font-family: 'Roboto', Arial, sans-serif; /* Roboto for subdivision items */
 }
